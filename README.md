@@ -38,7 +38,7 @@ fractal(outfile, width, height)
 
 Also, if you do not want to write "cargo run --" everytime, you can change your workspace to target/debug and run:
 ```
-mirage -i duck.png -o duck_cropped.png crop 6 9 4 20 
+./mirage -i /path/to/duck.png -o /path/to/duck_cropped.png crop 6 9 4 20 
 ```
 
 ## Requirements
